@@ -1,11 +1,9 @@
-body{margin: -22px 0 0 0; font-family: 'nerislight'; font-weight: normal;}
-.box_h{background: url(/image/main_bg.jpg); width: 100%; height: 947px;}
+body{margin: 0;/*margin: -22px 0 0 0;*/ font-family: 'nerislight'; font-weight: normal;}
+.box_h{background: url(/image/bacground_meg.jpg); background-position: center; width: 100%; height: 716px;}
 .box_w{padding: 80px 0; width: 100%;}
 .box_g{background: url(/image/bg_gradient.png) 100% 100% no-repeat; padding: 80px 0; width: 100%;}
 .container{width: 1110px; margin: 0 auto;}
 .inline{display: inline-block;}
-.red_arrow{position: absolute; width: 173px; height: 71px; background: url(image/arrow_to_clik.png) 100% 100% no-repeat; right: 0%;}
-.head{}
 .head .inline p{color: black; font-size: 16px;}
 .head .inline a{text-decoration: none;}
 .head .inline a span{border-bottom: 2px dotted rgb(0,0,0); color: black; font-size: 20px;}
@@ -18,13 +16,13 @@ body{margin: -22px 0 0 0; font-family: 'nerislight'; font-weight: normal;}
 .nav>ul>li>a{text-decoration: none; color: #fff;}
 .nav>ul>li>a:hover{text-decoration: none; }
 .wrap_colo{position: relative;}
-.title{font-family: "nerisbold";    font-size: 20px;    text-align: center;    padding: 0 0 10px 0;    width: 600px;    margin: 370px auto 0; background: rgba(255,255,255,0.6);}
-.title h1{font-size: 52px; margin-bottom: 5px;}
+.title{font-family: "nerisbold";    font-size: 20px;    text-align: center;    padding: 0 0 10px 0;    width: 600px;    margin: 80px auto 0; /*background: rgba(255,255,255,0.6);*/}
+.title h1{font-size: 70px; margin-bottom: 5px; margin-top: 0; line-height: 50px;}
+.title h1 span{font-size: 26px; margin-bottom: 5px;}
 .form{margin: 10px auto; width:800px; height: 200px; background: #fff; text-align: center;}
 .form input{padding: 13px 15px 16px 30px; border-radius: 7px; border: 1px solid rgb(220,220,220); margin-right: 10px;}
 #window_feedback input{padding: 10px 15px 10px 30px; border-radius: 7px; border: 1px solid rgb(220,220,220); margin-right: 10px;}
 .img_for_input{position: relative; left: 30px; top: 4px;}
-.title_p{}
 .title_p h2{margin-bottom: 10px;  text-align: center; font-family: "nerisbold"; font-size: 38px;}
 .line_yellow{width: 80px; height: 7px; background: #ffde00; margin: 0 auto 60px auto;}
 .box_for_shedow{padding-top: 20px; margin: 0 auto 40px; width: 900px; height: 710px; -webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.1); -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.1); box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.1);}
@@ -34,24 +32,33 @@ body{margin: -22px 0 0 0; font-family: 'nerislight'; font-weight: normal;}
 .center_s{display: inline-table; width: 32%; border-right: 1px solid rgb(197,197,197);}
 .right_s{display: inline-table; width: 33%}
 .button{
-color: #221e00; 
-background: #ffde00; 
-text-decoration: none; 
-cursor: pointer; 
-padding: 8px 21px 11px; 
-border-radius: 5px; 
-font-family: "nerisbold"; 
-font-size: 20px;
-border: none;
--webkit-box-shadow: 0px 3px 2px rgba(255,194,0, 1);
-  -moz-box-shadow: 0px 3px 2px rgba(255,194,0, 1);
-  box-shadow: 0px 3px 2px rgba(255,194,0, 1);
+    color: #221e00; 
+    background: #ffde00; 
+    text-decoration: none; 
+    cursor: pointer; 
+    padding: 8px 21px 11px; 
+    border-radius: 5px; 
+    font-family: "nerisbold"; 
+    font-size: 20px;
+    border: none;
+    -webkit-box-shadow: 0px 3px 2px rgba(255,194,0, 1);
+      -moz-box-shadow: 0px 3px 2px rgba(255,194,0, 1);
+      box-shadow: 0px 3px 2px rgba(255,194,0, 1);
 }
 .button a:hover{text-decoration: none;}
-.button a{color: #221e00; text-decoration: none; font-family: "nerisbold";}
+.button a{
+    color: #221e00; 
+    text-decoration: none; 
+    font-family: "nerisbold";
+}
 .left{float: left;}
 .right{float: right;}
-.row_perf p{display: inline-block; position: relative; top: -60px; font-size: 17px;}
+.row_perf p{
+    display: inline-block; 
+    position: relative; 
+    top: -60px; 
+    font-size: 17px;
+}
 
 /*Детализация свойств для адаптива*/
 
@@ -204,12 +211,10 @@ font-family: "nerisbold";
   margin-top: 10px;
   padding: 8px 12px;
 }
-/* /CALL FEEDBACK */
+/* END/CALL FEEDBACK */
 
 /*-----Адаптив-----*/
 
-
-@media screen and (max-width: 1110px) and (min-width: 810px){.red_arrow{top: 250px; transform: rotate(45deg);}}
 
 @media screen and (max-width: 1110px){
 .container{width: 100%;}
@@ -272,10 +277,7 @@ font-family: "nerisbold";
 .ya_map{width: 500px; }
 }
 
-@media screen and (max-width: 910px) {.box_for_shedow{width: 100%; height: auto} .box_for_shedow img{width: 100%;}  }
-
 @media screen and (max-width: 818px) {
-.red_arrow{display: none;}
 .form{width: 100%;}
 
 }
@@ -297,7 +299,7 @@ font-family: "nerisbold";
 	vertical-align: top;
 }
 #header-c-menu{display: none;}
-.title{    margin: 270px auto 0;}
+.title{margin: 270px auto 0;}
 .form{width: 100%; height: auto; padding-bottom: 20px;}
 .form button{    margin-top: 10px;}
 .form img{display: none;}
@@ -305,7 +307,9 @@ font-family: "nerisbold";
 .form input{margin-top 10px;}
 .ya_map{width: 320px; }
 }
+
 @media screen and (max-width: 620px){.title{width: 100%;}}
+
 @media screen and (max-width: 560px){
 .logo_new{display: block;     margin: auto;}
 .met-g{display: block;     margin: auto; padding-right: 30px;}
