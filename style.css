@@ -123,6 +123,44 @@ body{
     font-size: 17px;
 }
 
+/* walls */
+
+
+.wrap_wall_and_text{
+    margin: auto;
+    width: 935px;
+    position: relative;
+}
+.wall_and_text{
+    display: inline-table;
+    width: 270px;
+}
+.wall_and_text p span{
+    font-size: 40px;
+    color: #ef113b;    
+    
+}
+.wall_and_text p{    
+    display: inline-block;
+}
+.arrow_bleck1{
+    position: absolute;
+    width: 82px;
+    height: 25px;
+    top: 100px;
+    left: 275px;
+}
+.arrow_bleck2{
+    position: absolute;
+    width: 82px;
+    height: 25px;
+    top: 100px;
+    right: 260px;
+}
+.whitespase{
+    margin-left: 40px;
+}
+
 /*Детализация свойств для адаптива*/
 
 
