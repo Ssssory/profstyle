@@ -161,6 +161,25 @@ body{
     margin-left: 40px;
 }
 
+
+/* areas of used */
+
+
+.box_row .item{
+    width: 260px;
+    display: inline-block;
+    text-align: center;
+}
+.video_yutube{
+    margin: auto;
+    padding: 15px;
+    width: 680px;
+    height: 400px;
+    -webkit-box-shadow: 0px 0px 162px -28px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 162px -28px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 162px -28px rgba(0,0,0,0.75);
+}
+
 /*Детализация свойств для адаптива*/
 
 
@@ -411,10 +430,12 @@ font-family: "nerisbold";
 @media screen and (max-width: 620px){.title{width: 100%;}}
 
 @media screen and (max-width: 560px){
-.logo_new{display: block;     margin: auto;}
-.met-g{display: block;     margin: auto; padding-right: 30px;}
-.brsch{display: block;     margin: auto; padding-right: 95px;}
-.top_contact{display: block; margin: auto; padding-bottom: 35px; padding-top: 10px;}
+.logo_new{display: block; margin: auto; width: 125px;}
+.met-g{display: block; margin: auto; padding-top: 30px;}
+.met-g img{display: none;}
+.brsch{display: block; margin: auto; padding-top: 10px;}
+.brsch img{display: none;}
+.top_contact{display: block; margin: auto; padding-bottom: 35px; padding-top: 0px; margin-top: -5px;}
 .main_nav{    padding-right: 20px;}
 .title{width: 100%; margin: 50px auto 0;}
 .title h1{font-size: 25px;}
@@ -430,7 +451,15 @@ font-family: "nerisbold";
 .row_perf_right{width: 100%; text-align: center;}
 .row_perf p{top: -30px;}
 
-.contact_left{display: block; margin: 0 auto; text-align: center;}
+.contact_left{
+    display: block; 
+    margin: 0 auto; 
+    text-align: center;
+}
+#clock_footer{
+    top: -57px!important;
+    left: 100px;
+}
 .ya_map{display: block;     margin: auto;}
 
 
