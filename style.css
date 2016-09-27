@@ -164,20 +164,25 @@ body{
 
 /* areas of used */
 
-
+.shadow{
+    -webkit-box-shadow: 0px 0px 162px -28px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 162px -28px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 162px -28px rgba(0,0,0,0.75);
+}
 .box_row .item{
     width: 260px;
     display: inline-block;
     text-align: center;
+    margin: 0 7px;
 }
 .video_yutube{
     margin: auto;
     padding: 15px;
     width: 680px;
     height: 400px;
-    -webkit-box-shadow: 0px 0px 162px -28px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 162px -28px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 162px -28px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
 }
 
 /*Детализация свойств для адаптива*/
