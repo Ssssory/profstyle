@@ -185,9 +185,43 @@ body{
 box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
 }
 
-/*Детализация свойств для адаптива*/
+/*how we work*/
+.arrow_bleck3{
+    
+}
+.arrow_bleck4{
+    
+}
+.arrow_bleck5{
+    
+}
+.item_how{display: inline-block;}
 
 
+/*Детализация*/
+
+.box_row ul li{list-style-type: none;}
+h6{    
+    font-family: 'nerisbold';
+    font-size: 22px;
+    margin: 0px;
+}
+.wrap_coment{
+    -webkit-box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
+    padding: 30px;
+}
+.wrap_coment img{
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    top: -20px;
+}
+.wrap_coment div{
+    display: inline-block;
+    width: 760px;
+}
 
 
 
