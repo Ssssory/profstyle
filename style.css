@@ -187,15 +187,26 @@ box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
 
 /*how we work*/
 .arrow_bleck3{
-    
+    position: absolute;
+    top: 70px;
+    left: 22%;
 }
 .arrow_bleck4{
-    
+    position: absolute;
+    top: 70px;
+    left: 47%;
 }
 .arrow_bleck5{
-    
+    position: absolute;
+    top: 70px;
+    left: 72%;
 }
-.item_how{display: inline-block;}
+.item_how{
+    margin: 2.4%;
+    display: inline-table;
+    text-align: center;
+    width: 220px;
+}
 
 
 /*Детализация*/
@@ -206,14 +217,18 @@ h6{
     font-size: 22px;
     margin: 0px;
 }
-.wrap_coment{
-    -webkit-box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
+
+#comment .bx-viewport{
+     -webkit-box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 120px -28px rgba(0,0,0,0.75);
+}
+.wrap_coment{
+    
     padding: 30px;
 }
 .wrap_coment img{
-    display: inline-block;
+    display: inline-block !important;
     margin-right: 25px;
     position: relative;
     top: -20px;

@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Металлографика</title>
     <link rel="stylesheet" href="style.css">
+    <link href="jquery.bxslider.css" rel="stylesheet" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="jquery.bxslider.min.js"></script>
+    <script src="common.js" type="text/javascript"></script>
 </head>
 <body>
     
@@ -198,7 +202,18 @@
             <div class="line_yellow"></div>
         </div>      
         <!--content--> 
-        прикрутить инфоблок
+        <div class="box_row" style="width: 980px; margin: 0 auto;">
+            <ul class="bxslider">
+                <li><a href="#"><img src="image/complete_wone.jpg" alt="img"></a></li>
+                <li><a href="#"><img src="image/complete_too.jpg" alt="img"></a></li>
+                <li><a href="#"><img src="image/complete_three.jpg" alt="img"></a></li>
+            </ul>
+            <ul class="bxslider_under">    
+                <li><a href="#"><img src="image/complete_fore.jpg" alt="img"></a></li>
+                <li><a href="#"><img src="image/complete_five.jpg" alt="img"></a></li>
+                <li><a href="#"><img src="image/complete_six.jpg" alt="img"></a></li>
+            </ul>
+        </div>
     </div>
 </div>
 <div style="clear: both;"></div>
@@ -208,8 +223,17 @@
             <h2>ВАРИАНТЫ ГОТОВЫХ ИЗОБРАЖЕНИЙ</h2>
             <div class="line_yellow"></div>
         </div> 
-                <!--content-->  
-                взять с сайта                         
+                <!--content--> 
+                <div class="box_row" style="width: 980px; margin: 0 auto;"> 
+                <ul class="bxslider_complete" >
+                <li><a href="#"><img src="image/complete_wone.jpg" alt="img"></a></li>
+                <li><a href="#"><img src="image/complete_too.jpg" alt="img"></a></li>
+                <li><a href="#"><img src="image/complete_three.jpg" alt="img"></a></li>
+                <li><a href="#"><img src="image/complete_fore.jpg" alt="img"></a></li>
+                <li><a href="#"><img src="image/complete_five.jpg" alt="img"></a></li>
+                <li><a href="#"><img src="image/complete_six.jpg" alt="img"></a></li>
+                </ul> 
+        </div>                        
     </div>
 </div>
 <div style="clear: both;"></div>
@@ -220,7 +244,7 @@
             <div class="line_yellow"></div>
         </div>      
         <!--content--> 
-        <div class="box_row">
+        <div class="box_row" style="position: relative">
         <div class="arrow_bleck3"><img src="image/black_arrow.png" alt="arrow" width="77px"></div>
         <div class="arrow_bleck4"><img src="image/black_arrow.png" alt="arrow" width="77px"></div>
         <div class="arrow_bleck5"><img src="image/black_arrow.png" alt="arrow" width="77px"></div>
@@ -258,8 +282,17 @@
             <div class="line_yellow"></div>
         </div> 
                 <!--content-->  
-                <div class="box_row">
-                    <ul>
+                <div class="box_row" id="comment">
+                    <ul class="bxslider_comment">
+                        <li>
+                            <div class="wrap_coment">
+                                <img src="image/avatar.png" alt="avatar">
+                                <div>
+                                    <h6>Марат, Набережные Челны</h6>
+                                    <p>«Впервые я увидел продукцию Профстиля у соседей, очень понравилась сама идея - картины, напечатанные на оцинкованном металле. Давно задумывался над обновлением внешнего вида забора и фасада дома. Очень удобно, что не нужно убирать старое ограждение, его украшают профлистами с выбранным рисунком. Ребята из профстиля посоветовали самые элегантные решения для фасада и забора. За адекватную цену мой дом имеет красивый и ухоженный вид.»</p>
+                                </div>
+                            </div>
+                        </li>
                         <li>
                             <div class="wrap_coment">
                                 <img src="image/avatar.png" alt="avatar">
@@ -311,9 +344,7 @@
 </div>
 <!--  footer - end  -->
 <!--  script  -->
-<script src="http://code.jquery.com/jquery-1.9.1.js" type="text/javascript"></script>
 
-<script src="common.js" type="text/javascript"></script>
 
 
 </body>

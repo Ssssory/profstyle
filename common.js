@@ -1,17 +1,27 @@
 
 	$(document).ready(function() {
 
-		$("a.group").fancybox({
-			'transitionIn'	:	'elastic',
-			'transitionOut'	:	'elastic',
-			'speedIn'		:	600, 
-			'speedOut'		:	200, 
-			'overlayShow'	:	false,
-			'hideOnContentClick': true,
-			'titleShow':true,
-			'titlePosition' : 'inside'
-		});
-		
+		$('.bxslider').bxSlider({
+              minSlides: 3,
+              maxSlides: 3,
+              slideWidth: 315,
+              slideMargin: 14
+});
+        $('.bxslider_under').bxSlider({
+              minSlides: 3,
+              maxSlides: 3,
+              slideWidth: 315,
+              slideMargin: 14
+});
+       $('.bxslider_complete').bxSlider({
+              minSlides: 3,
+              maxSlides: 3,
+              slideWidth: 315,
+              slideMargin: 14
+}); 
+	$('.bxslider_comment').bxSlider({              
+              maxSlides: 1,              
+});	
 		
 		
 		
@@ -250,4 +260,6 @@ $(".feedbackForm").submit(function(){ // перехватываем все пр�
 			}
 			return false; // вырубаем стандартную отправку формы
 		});		
+
+
 //</script>
