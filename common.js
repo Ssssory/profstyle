@@ -6,13 +6,7 @@
               maxSlides: 3,
               slideWidth: 315,
               slideMargin: 14
-});
-        $('.bxslider_under').bxSlider({
-              minSlides: 3,
-              maxSlides: 3,
-              slideWidth: 315,
-              slideMargin: 14
-});
+});        
        $('.bxslider_complete').bxSlider({
               minSlides: 3,
               maxSlides: 3,
